@@ -1,0 +1,42 @@
+body {
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+}
+#right-side {
+  position: absolute;
+  left: 15%;
+}
+#right-side-bigger {
+  position: absolute;
+  left: 15%;
+  font-size: 40px;
+}
+#left-side {
+  position: absolute;
+  left: 55%;
+}
+#styled-by-id {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+#p-bigger {
+  position: absolute;
+  left: 15%;
+  font-size: 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
